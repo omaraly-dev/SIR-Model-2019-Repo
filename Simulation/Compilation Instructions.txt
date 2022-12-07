@@ -1,0 +1,11 @@
+Compilation Instructions:
+
+Intel Compiler:
+	Use icpc -c infection_classes.h to compile the infection_classes header file that all simulations are dependent on.
+	Use icpc -c <program_name>.cpp to compile whichever simulation you're interested in running.
+	Use icpc -o <program_name> <program_name>.o infection_classes.o to link the two together and to produce an executable.
+
+GCC Compiler:
+	Use g++ -c infection_classes.h to compile the infection_classes header file that all simulations are dependent on.
+	Use g++ -c <program_name>.cpp to compile whichever simulation you're interested in running.
+	Use g++ -o <program_name> <program_name>.o to link the two together and to produce an executable.
